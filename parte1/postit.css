@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Indie Flower", cursive;
+  background-color: #666666;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.yellow {
+  background-color: #fefecc;
+}
+
+.green {
+  background-color: #c9f9cb;
+}
+
+.purple {
+  background-color: #cacafa;
+}
+
+section {
+  width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-inline: auto;
+  margin-top: 5rem;
+  position: relative;
+}
+
+.postit {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+  box-shadow: inset 0px -30px 30px 0px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+  /* animation: sorted 5s 3s backwards; */
+}
+/* 
+@keyframes sorted {
+  from {
+    position: absolute;
+    left: 0;
+  }
+  to {
+    position: static;
+  } 
+ } */
+
+.postit:hover {
+  transform: rotate(0);
+  scale: 1.2;
+  transition: all 0.3s;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.n1 {
+  transform: rotate(-3deg);
+}
+
+.n2 {
+  transform: rotate(5deg);
+}
+
+.n3 {
+  transform: rotate(-4deg);
+}
+
+.n4 {
+  transform: rotate(7deg);
+}
+
+.n5 {
+  transform: rotate(-3deg);
+}
+
+.n6 {
+  transform: rotate(-6deg);
+}
+
+.n7 {
+  transform: rotate(-3deg);
+}
+
+.n8 {
+  transform: rotate(5deg);
+}
+
+.postit div {
+  margin-inline: auto;
+}
